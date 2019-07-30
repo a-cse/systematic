@@ -1,0 +1,341 @@
+
+/*Header area Star*/
+.header_top {
+    background: #ba2e1f;
+    padding: 10px 0px;
+}
+
+
+
+.header_top ul,.social_icon ul,.main_nemu nav ul{
+    margin: 0px;
+    padding: 0px;
+    list-style:none;
+}
+
+.header_top ul li {
+    display:  inline-block;
+    padding: 2px 0px;
+}
+
+.header_top ul li a {
+    color: #fff;
+    padding:  5px;
+    text-decoration:  none;
+    border-right:  2px solid #fff;
+    font-size: 13px;
+    outline:none;
+}
+
+.header_top ul li:last-child a {
+    border-right: none;
+}
+
+.header_top ul li a:hover {
+    text-decoration: none;
+    color: #ddd;
+
+}
+
+.top_search input {
+    width: 90%;
+    height: 33px;
+    border-radius: 20px;
+    border: none;
+    position: relative;
+}
+.top_search i {
+    color: #fff;
+    position: absolute;
+    top: 5px;
+    right: 55px;
+    height: 25px;
+    width: 25px;
+    background: #ba2e1f;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1.7;
+}
+.logo_social_icon {
+    padding: 50px 0px;
+}
+ 
+.social_icon ul li {
+    display:  inline-block;
+    margin-left:10px;
+    margin-top: 17px;
+    padding:0px;
+}
+
+.social_icon ul li a {
+    color: #fff;
+    display: inline-block;
+    height: 34px;
+    width: 35px;
+    background: #2b2929;
+    border-radius: 50%;
+    margin-left: 2px;
+    text-align:  center;
+    font-size: 20px;
+}
+
+.social_icon ul li a:hover {
+    background:  #ee802f;
+}
+
+.main_nemu {
+    background: #2b2b2b;
+    padding: 10px 0px;
+    width:  96%;
+    margin-left:  17px;
+    border-radius: 5px;
+}
+.main_nemu ul li {
+    display:  inline-block;
+}
+
+.main_nemu nav ul li a {
+    text-transform: uppercase;
+    color: #fff;
+    text-align:  center;
+    display:  inline-block;
+    padding: -3px;
+    margin-left: 55px;
+    transition:.7s;
+}
+
+.main_nemu nav ul li a:hover {
+    color: #ba2e1f;
+    text-decoration:none;
+}
+/*Header area end*/
+
+/*Hero Aera Star*/
+.col-md-5 img {
+    margin-top: 25px;
+    width: 100%;
+    height: auto;
+}
+
+.col-md-7 {
+    margin-top: 200px;
+}
+
+.col-md-7 h2 {
+    font-size: 90px;
+    width:  100%;
+    text-align:  left;
+    margin-left: 10px;
+}
+
+.col-md-7 p {
+    font-size: 16px;
+    text-align: left;
+    margin-left: 10px;
+}
+a.hero_read_more_btn {
+    text-align:  right;
+    display: block;
+    margin-right: 58px;
+    margin-top: 51px;
+    color: #ba2e1f;
+    text-transform:uppercase;
+    text-decoration: none;
+}
+a.hero_read_more_btn:hover{
+    color: red;
+}
+
+a.hero_read_more_btn i {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+/*Hero Aera Star*/
+/*Mess Aera Start*/
+.mess_area {
+    background: #f2f2f2;
+    padding: 50px 0px;
+}
+
+.mess_title h2 {
+    font-size:  26px;
+    font-family:  initial;
+    text-align: left;
+}
+
+.about_us img {
+    width: 96%;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 45px;
+}
+
+.about_us p {
+    font-size:  14px;
+    margin-top: 20px;
+    text-align: inherit;
+}
+a.hero_read_more_btn.about_us_btn {
+    margin-right: 0px;
+    text-transform: none;
+    margin-top: 6px;
+
+}
+
+a.hero_read_more_btn.about_us_btn:hover {
+    color: red;
+}
+.single_service_box {
+    margin-top: 10px;
+}
+
+.service_area {
+    margin-top: 45px;
+}
+
+.service_content h6 {
+    font-size: 16px;
+    margin-left: 12px;
+}
+
+.service_content p {
+    font-size: 14px;
+    margin-left: 12px;
+}
+
+.our_client {
+    margin-top:30px;
+}
+.our_client h6 {
+    color: #888888;
+    padding-left: 10p;
+}
+
+.our_client strong {
+    font-size: 48px;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+.our_client h6 span {
+    font-weight: 13px;
+    font-weight: 110px;
+    font-weight: 100;
+}
+
+.our_client p {
+    font-size: 14px;
+    color: #888888;
+}
+a.hero_read_more_btn.survice_btn {
+    margin-top: 29px;
+    margin-right: 0px;
+    text-transform: none;
+}
+
+a.hero_read_more_btn.our_client_btn {
+    margin-top: 31px;
+    text-transform: none;
+    margin-right: 0px;
+}
+/*Mess Aera end*/
+
+
+
+/*Widgers area start*/
+.footer_widgers {
+    padding: 0px;
+    margin-top: 30px;
+}
+
+.mess_title.widgers_title {
+    border-top: 2px solid #ad9f9f;
+    padding-top: 18px;
+    margin-top: 15px;
+}
+.content_p p {
+    font-size: 13px;
+    padding-top: 18px;
+}
+
+.quick_links {
+    padding: 15px 0px;
+  }
+  .quick_links ul {
+    margin: 0px;
+    padding: 02px;
+}
+
+.quick_links ul li {
+    /* text-decoration: none; */
+    font-style: none;
+    list-style: none;
+    margin-top: 6px;
+}
+
+.quick_links ul li a {
+    font-size: 15px;
+    font-family: cursive;
+    border-bottom: 1px solid #dac6c6de;
+    color: #3c3131de;
+    padding-bottom: 6px;
+    transition:.3s;
+}
+
+.quick_links ul li a:hover {
+    color: green;
+    text-decoration: none;
+}
+.single_blog_post h6 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #848080;
+    padding-top: 22px;
+}
+
+.single_blog_post span {
+    font-size: 12px;
+    display: inline-block;
+    margin-top: -8px;
+}
+
+.single_blog_post p {
+    font-size: 14px;
+    padding-top: 10px;
+    font-family: cursive;
+}
+a.hero_read_more_btn.widgers_btn {
+    display: inline-block;
+    margin-top: 1px;
+    margin-left: 145px;
+    font-size: 13px;
+}
+form input,form textarea {
+    background-color: #f2f2f2;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 14px;
+    padding-left: 8px;
+    border: none;
+    height: 25px;
+}
+
+input[type="submit"] {
+    width: 20%;
+    color: #632323;
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+
+.contact_us form textarea {
+    height: 178px;
+}
+footer{
+    background:#ddd;
+    margin-top: 10px;
+    padding:15px;
+
+}
+/*widgers Aera end*/
